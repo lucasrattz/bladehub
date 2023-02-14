@@ -219,6 +219,9 @@ body {
         text-align: center;
         display: inline-block;
         padding: 2vh 4vh 2vh 4vh;
+       -webkit-box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
+       -moz-box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
+        box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
     }
 
     #generated-content {
