@@ -1,5 +1,5 @@
 async function getApi(type) {
-    const api = `http://localhost:2774/api/${type}`;
+    const api = `https://starfish-app-llnoc.ondigitalocean.app/api/${type}`;
 
     const response = await fetch(api);
     let data = await response.json();
